@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FirstPersonControllerAlpha : MonoBehaviour
+public class FirstPersonControllerIdiom : MonoBehaviour
 {
     // script handles movement of the player
     [Header("Movement")]
