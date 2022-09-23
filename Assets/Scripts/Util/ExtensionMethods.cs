@@ -54,9 +54,9 @@ public static class ExtensionMethods
     public static Vector3 AddRandomRadius(this Vector3 vector, float radius)
     {
         // randomize the variables
-        float x = Random.Range(-radius, radius);
-        float y = Random.Range(-radius, radius);
-        float z = Random.Range(-radius, radius);
+        float x = UnityEngine.Random.Range(-radius, radius);
+        float y = UnityEngine.Random.Range(-radius, radius);
+        float z = UnityEngine.Random.Range(-radius, radius);
         // set the vector
         return new Vector3(x, y, z);
     }
@@ -65,9 +65,9 @@ public static class ExtensionMethods
     public static Vector3 AddRandomRadius(this Vector3 vector, float xRadius, float yRadius, float zRadius)
     {
         // randomize variables
-        float x = Random.Range(-xRadius, xRadius);
-        float y = Random.Range(-yRadius, yRadius);
-        float z = Random.Range(-zRadius, zRadius);
+        float x = UnityEngine.Random.Range(-xRadius, xRadius);
+        float y = UnityEngine.Random.Range(-yRadius, yRadius);
+        float z = UnityEngine.Random.Range(-zRadius, zRadius);
         // set the vector
         return new Vector3(x, y, z);
     }
@@ -76,8 +76,8 @@ public static class ExtensionMethods
     public static Vector2 AddRandomRadius(this Vector2 vector, float radius)
     {
         // randomize the variables
-        float x = Random.Range(-radius, radius);
-        float y = Random.Range(-radius, radius);
+        float x = UnityEngine.Random.Range(-radius, radius);
+        float y = UnityEngine.Random.Range(-radius, radius);
         // set the vector
         return new Vector2(x, y);
     }
@@ -86,8 +86,8 @@ public static class ExtensionMethods
     public static Vector2 AddRandomRadius(this Vector3 vector, float xRadius, float yRadius)
     {
         // randomize variables
-        float x = Random.Range(-xRadius, xRadius);
-        float y = Random.Range(-yRadius, yRadius);
+        float x = UnityEngine.Random.Range(-xRadius, xRadius);
+        float y = UnityEngine.Random.Range(-yRadius, yRadius);
         // set the vector
         return new Vector2(x, y);
     }
