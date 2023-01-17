@@ -3,12 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ExcludeCamera
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PhaoLight
   - Water
   - UI
   - 
